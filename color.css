@@ -1,0 +1,155 @@
+/* Background-color-image */
+
+.grass{
+    background-color: rgb(67, 198, 67) !important;
+}
+
+.poison{
+    background-color: rgb(211, 184, 237);
+}
+
+.fire{
+    background-color: rgb(222, 85, 10);
+}
+
+.water{
+    background-color: rgb(59, 174, 240);
+}
+
+.bug{
+    background-color: rgb(151, 48, 48);
+}
+
+.normal{
+    background-color: rgb(240, 240, 95);
+}
+
+.electric{
+    background-color: gold;
+}
+
+.ground{
+    background-color: rgb(131, 95, 95);
+}
+
+.fairy{
+    background-color: rgb(214, 132, 221);
+}
+
+.fighting{
+    background-color: beige;
+}
+
+.psychic{
+    background-color: rgb(238, 208, 108);
+}
+
+.rock{
+    background-color: rgb(152, 148, 148);
+}
+
+.ghost{
+    background-color: rgb(100, 100, 238);
+}
+
+.ice{
+    background-color: rgb(109, 241, 241);
+}
+
+/* Background-color-type */
+
+.bg-flying{
+    background-color: rgb(167, 215, 235);
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.bg-poison{
+    background-color: rgb(211, 184, 237);
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.bg-grass{
+    background-color: rgb(67, 198, 67);
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.bg-fire{
+    background-color: rgb(222, 85, 10);
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.bg-water{
+    background-color: rgb(59, 174, 240);
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.bg-bug{
+    background-color: rgb(179, 74, 74);
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.bg-normal{
+    background-color: rgb(240, 240, 95);
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.bg-electric{
+    background-color: gold;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.bg-ground{
+    background-color: rgb(131, 95, 95);
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.bg-fairy{
+    background-color: rgb(214, 132, 221);
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.bg-fighting{
+    background-color: beige;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.bg-psychic{
+    background-color: rgb(238, 208, 108);
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.bg-rock{
+    background-color: rgb(152, 148, 148);
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.bg-ice{
+    background-color: rgb(109, 241, 241);
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.bg-ghost{
+    background-color: rgb(100, 100, 238);
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.bg-steel{
+    background-color: rgb(178, 238, 100);
+    border-radius: 8px;
+    padding: 5px;
+}

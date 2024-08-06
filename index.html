@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="color.css" />
+    <link rel="stylesheet" href="media@.css" />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="./img/icons/pokemon-ball.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body onload="onload()">
+    <header>
+      <div class="img-div-header">
+        <img
+          id="poke-ball-img"
+          src="./img/icons/pokemon-ball-open.png"
+          alt="open-poke-ball"
+        />
+        <img
+          id="pokemon-font-img"
+          src="./img/icons/pokemon-svgrepo-com.svg"
+          alt=""
+        />
+      </div>
+      <input
+        id="searchPokemons"
+        onkeyup="filterPokemons()"
+        placeholder="search Pokemon"
+        type="text"
+      />
+    </header>
+    <div class="main-container" id="content"></div>
+    <div id="popUpPokemonId" onclick="closePokemonInfo()"></div>
+    <div class="divForButton">
+      <button type="button" class="btn btn-danger" onclick="loadMorePokemon()">
+        load more Pokemons
+      </button>
+    </div>
+    <footer></footer>
+
+    <script src="scipt.js"></script>
+    <script src="render.js"></script>
+  </body>
+</html>

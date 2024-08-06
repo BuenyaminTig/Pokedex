@@ -1,0 +1,27 @@
+@media (max-width: 750px) {
+  .arrowImagesIncard img {
+    display: unset;
+  }
+  #arrowImages {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  header {
+    flex-direction: column;
+    height: 200px;
+  }
+}
+
+@media (max-height: 670px) {
+  #popUpCardId {
+    height: 630px !important;
+  }
+  .popUpPokemonImageClass img {
+    height: 300px;
+  }
+  .arrowImagesIncard {
+    margin-top: 0;
+  }
+}
