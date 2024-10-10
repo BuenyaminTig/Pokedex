@@ -25,3 +25,19 @@
     margin-top: 0;
   }
 }
+
+/* Imprint */
+
+@media (max-height: 890px) {
+  .scroll-box {
+    max-height: 300px;
+  }
+  .div-for-back-to-home-button {
+    padding-top: 20px;
+  }
+}
+@media (max-height: 725px) {
+  .scroll-box {
+    max-height: 200px;
+  }
+}

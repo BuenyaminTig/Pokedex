@@ -5,6 +5,8 @@ let Index = 1;
 function onload() {
   fetchRibbon();
   document.getElementById("popUpPokemonId").classList.add("d-none");
+  document.getElementById("impressum-content").classList.add("d-none");
+  document.getElementById("back-to-home").classList.add("d-none");
 }
 
 async function fetchRibbon() {
@@ -94,4 +96,21 @@ function arrowright(i) {
 
 function loadMorePokemon() {
   fetchRibbon();
+}
+
+function showImpressum(){
+  document.getElementById("impressum-content").classList.remove("d-none"); 
+  document.getElementById("content").classList.add("d-none");
+  document.getElementById("btn-load-pokes").classList.add("d-none");
+  document.getElementById("searchPokemons").classList.add("d-none");
+  document.getElementById("footer").classList.add("position-absolute-bottom-0");
+  document.getElementById("back-to-home").classList.remove("d-none");
+}
+function showPokemons(){
+  document.getElementById("impressum-content").classList.add("d-none"); 
+  document.getElementById("content").classList.remove("d-none");
+  document.getElementById("btn-load-pokes").classList.remove("d-none");
+  document.getElementById("searchPokemons").classList.remove("d-none");
+  document.getElementById("footer").classList.remove("position-absolute-bottom-0");
+  document.getElementById("back-to-home").classList.add("d-none");
 }
